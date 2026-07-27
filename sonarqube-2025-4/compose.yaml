@@ -1,20 +1,5 @@
 ---
 services:
-  sonarqube-2025-4-mcp:
-    container_name: sonarqube-2025-4-mcp
-    depends_on:
-      - sonarqube-2025-4
-    image: mcp/sonarqube:latest
-    restart: unless-stopped
-    environment:
-      SONARQUBE_HTTP_HOST: 0.0.0.0
-      SONARQUBE_HTTP_PORT: 8080
-      SONARQUBE_TOKEN: ${SONAR_TOKEN}
-      SONARQUBE_TRANSPORT: http
-      SONARQUBE_URL: http://sonarqube-2025-4:9000
-    ports:
-      - 19014:8080
-
   sonarqube-2025-4:
     container_name: sonarqube-2025-4
     depends_on:
