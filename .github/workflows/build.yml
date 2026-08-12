@@ -26,7 +26,4 @@ jobs:
           SONAR_ORGANIZATION: ${{ vars.SONAR_ORGANIZATION }}
         with:
           args: >
-            "-Dsonar.organization=${{ env.SONAR_ORGANIZATION }}"
-            "-Dsonar.projectKey=Sonar-Support_waynekhan-net-MAC0929-docker"
-
             "-Dsonar.verbose=${{ steps.sonar-project-properties.outputs.sonar-verbose }}"
