@@ -23,7 +23,6 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ vars.SONAR_HOST_URL }}
-          SONAR_ORGANIZATION: ${{ vars.SONAR_ORGANIZATION }}
         with:
           args: >
             "-Dsonar.verbose=${{ steps.sonar-project-properties.outputs.sonar-verbose }}"
