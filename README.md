@@ -1,4 +1,4 @@
-# MAC0929-docker
+# README
 
 Mostly SonarQube Server-related projects.
 
