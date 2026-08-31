@@ -1,6 +1,5 @@
-ca.key
+*.key
 data/*
 extensions/plugins/*.jar
 lib/extensions/*.jar
 logs/*.log
-server.key
