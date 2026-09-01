@@ -1,4 +1,7 @@
+*.crt
+*.csr
 *.key
+*.srl
 data/*
 extensions/plugins/*.jar
 lib/extensions/*.jar
