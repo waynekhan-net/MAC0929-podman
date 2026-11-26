@@ -4,3 +4,5 @@ extensions/plugins/*.jar
 lib/extensions/*.jar
 logs/*.log
 server.key
+.env
+enterprise/.env

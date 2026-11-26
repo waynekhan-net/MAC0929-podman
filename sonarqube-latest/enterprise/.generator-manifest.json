@@ -1,0 +1,14 @@
+{
+  "files": {
+    ".env": "9da4fad9f36ef8ae35bf2a0ed567bde09251e1db39daae425a1a99c410767ca3",
+    "README.md": "d2a6482462cc1629e161ccf9a9ead7cc1ea3e76b8a865bba7d4998f9e9060836",
+    "docker-compose.yaml": "1e7cbcbd4bc2e3c808ebe7aec04fb6158109741b174127b1bd80bbc6a02f6d6c",
+    "egress-proxy/entrypoint.sh": "31aa26e8994d3719cabb3f66303f646ac552462eca30f4fd96e42fd4f99403ab",
+    "egress-proxy/squid.conf.template": "3e487df18b1826a70dbe6e007b97b16055f57f00619bc0ad8b9cefcf9ccd919c",
+    "sonarqube/sonar.properties": "c3a031c2f4dc79ca38205ed612eca4e5b6fe42567a3a92e525e670c3b9ae1fa4",
+    "tls-proxy/entrypoint.sh": "896a60ef20e6fd861ffb621ea2bcb7e5ba069d006568d486c005aa68490b2857",
+    "tls-proxy/nginx.agentic.conf.template": "4e4aaa060e4bc152957febe14b853bf0a74df75b57b973a563ef14afea03fa1a",
+    "tls-proxy/nginx.conf.template": "4c2aac61f7a1b08719c8fc2b6ce877eefc1ee0c3b6dc4f9eb1699c1f8ae2d07b",
+    "tls-proxy/nginx.kit.conf.template": "3bf5cac2d002cc3fa9cc9663a56feaa6f386f4b1ceb37e224716f382e2067e28"
+  }
+}
